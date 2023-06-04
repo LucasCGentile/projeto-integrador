@@ -1,4 +1,4 @@
-## Projeto Integrador - GRafites em Sâo Roque // Galantes Cogumelos do Amor
+## Projeto Integrador - Grafites em Sâo Roque
 ![GitHub last commit](https://img.shields.io/github/last-commit/lucascgentile/projeto-integrador?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/lucascgentile/projeto-integrador?style=for-the-badge)
 ![GitHub repo status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)
