@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*   font-size: 10px; */
+}
+
+/* CSS Top Header */
+
+header .top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4vh;
+
+  background-color: #edede9;
+}
+
+header .top-header .contact {
+  display: flex;
+  gap: 32px;
+}
+
+/* CSS Social Medias */
+
+header .social-media {
+  display: flex;
+  gap: 16px;
+}
+
+header .social-media img {
+  height: 24px;
+}
+
+header .social-media .facebook-social:hover {
+  content: url(../images/facebook_icon_colored.png);
+}
+
+header .social-media .instagram-social:hover {
+  content: url(../images/instagram_icon_colored.png);
+}
+
+header .social-media .pinterest-social:hover {
+  content: url(../images/pinterest_icon_colored.png);
+}
+
+header .social-media .twitter-social:hover {
+  content: url(../images/twitter_icon_colored.png);
+}
+
+/* CSS Header // Nav */
+
+header .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #edf6f9;
+
+  height: 10vh;
+}
+
+header .nav-bar .nav ol {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+header .nav-bar .nav ol li a {
+  color: black;
+  text-decoration: none;
+}
+
+header .nav-bar .nav ol li a:hover {
+  color: grey;
+}
+
+/* CSS Home */
+
+main .home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 80px;
+}
+
+main .home-content .home-text {
+  width: 600px;
+
+}
+
+main .home-content .home-text h1 {
+  font-size: 48px;
+}
+
+main .home-content .home-text p {
+font-size: 16px;
+}
+
+main
