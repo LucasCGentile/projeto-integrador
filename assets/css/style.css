@@ -117,7 +117,7 @@ main .main-container {
   background-color: var(--main-home-color);
 }
 
-/* CSS Home */
+/* CSS Home index.html */
 
 main .home-content {
   display: flex;
@@ -169,7 +169,7 @@ main .home-info a img:hover {
   filter: brightness(0.5);
 }
 
-/* CSS Historia */
+/* CSS Historia historia.html */
 
 main .main-container {
   padding: 60px 0 30px 0;
@@ -220,7 +220,7 @@ main .main-container .historia-container .historia-content-aside img {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* Padrão Estilo do Botão */
+/* Padrão Estilo do Botão button */
 
 main .main-container .button {
   display: flex;
@@ -244,90 +244,232 @@ main .main-container .button a:hover {
   color: #174ea6;
 }
 
-/* CSS Curiosidades */
+/* CSS Curiosidades curiosidades.html */
 
-main .main-container .curiosidades-container {
+main .curiosidades-container {
+  /*   max-width: 1330px;
+  margin: auto; */
+}
+
+main .curiosidades-container {
+}
+
+main .curiosidades-container h2 {
   max-width: 1330px;
-  margin: auto;
-}
+  margin: 60px auto 20px auto;
 
-main .main-container .curiosidades-container h2 {
   font-family: var(--titulo);
-  margin-bottom: 20px;
 }
 
-main .main-container .curiosidades-container .curiosidades-1 {
+main .curiosidades-container .curiosidades-1 {
   display: flex;
   align-items: center;
-
+  max-width: 1330px;
+  margin: auto;
   margin-bottom: 60px;
+  font-family: var(--conteudo);
 }
 
-main .main-container .curiosidades-container .curiosidades-1 img {
+main .curiosidades-container .curiosidades-1 img {
   margin-right: 70px;
+  border-radius: 25% 10%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-main .main-container .curiosidades-container .curiosidades-2 {
+main .curiosidades-container .curiosidades-2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+main .curiosidades-container .curiosidades-2 .curiosidades-2-content {
+  max-width: 1330px;
+  margin: 0 auto 30px auto;
+  font-family: var(--conteudo);
+}
+
+main .curiosidades-container .curiosidades-2 .container-table {
+  background-color: rebeccapurple;
 }
 
 main
-  .main-container
   .curiosidades-container
   .curiosidades-2
+  .container-table
   .curiosidades-table {
-    
+  max-width: 1330px;
+  margin: auto;
 }
 
-main
-  .main-container
-  .curiosidades-container
-  .curiosidades-2
-  .curiosidades-table
-  table {
+main .curiosidades-container .curiosidades-2 .curiosidades-table table {
   padding: 50px;
   margin: auto;
-  width: 1330px;
 }
 
-main
-  .main-container
-  .curiosidades-container
-  .curiosidades-2
-  .curiosidades-table
-  table
-  tr
-  th {
+main .curiosidades-container .curiosidades-2 .curiosidades-table table tr th {
   background-color: #495057;
   color: white;
 }
 
-main
-  .main-container
-  .curiosidades-container
-  .curiosidades-2
-  .curiosidades-table
-  table
-  tr
-  td {
+main .curiosidades-container .curiosidades-2 .curiosidades-table table tr td {
   background-color: #adb5bd;
   color: white;
 
   padding: 20px;
 }
 
+main .curiosidades-container .curiosidades-2 .curiosidades-table table img {
+  height: 70px;
+}
+
+main .curiosidades-container .curiosidades-3 {
+}
+
+main .curiosidades-container .curiosidades-3 .curiosidades-3-content {
+  max-width: 1330px;
+  margin: 0 auto 20px auto;
+  font-family: var(--conteudo);
+}
+
+main .curiosidades-container .curiosidades-3 .steam-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS Grafite e Prefeitura prefeituraGrafite.html */
+
+main .main-container .prefeitura-grafite {
+  max-width: 1330px;
+  margin: 0 auto 45px auto;
+}
+
+main .main-container .prefeitura-grafite h2 {
+  margin-bottom: 20px;
+  font-family: var(--titulo);
+}
+
+main .main-container .prefeitura-grafite p {
+  font-family: var(--conteudo);
+  margin-bottom: 20px;
+}
+
+main .main-container .prefeitura-grafite figure {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+main .main-container .prefeitura-grafite figure img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main .main-container .atividade-prefeitura {
+  max-width: 1330px;
+  margin: auto;
+}
+
+main .main-container .atividade-prefeitura h2 {
+  font-family: var(--titulo);
+  margin-bottom: 20px;
+}
+
+main .main-container .atividade-prefeitura p {
+  font-family: var(--conteudo);
+  margin-bottom: 30px;
+}
+
+main .main-container .atividade-prefeitura figure {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+main .main-container .atividade-prefeitura figure img {
+  margin-bottom: 35px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/* CSS Grafites em Sao Roque emSaoRoque.html */
+
+
+
+main .main-container .grafiteSaoRoque-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1330px;
+  margin: auto;
+}
+
+main .main-container .grafiteSaoRoque-container img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main .main-container .grafiteSaoRoque-container2 img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content {
+}
+
 main
   .main-container
-  .curiosidades-container
-  .curiosidades-2
-  .curiosidades-table
-  table
+  .grafiteSaoRoque-container
+  .grafiteSaoRoque-content
+  figure {
+    display: flex;
+    gap: 25px;
+}
+
+main
+  .main-container
+  .grafiteSaoRoque-container
+  .grafiteSaoRoque-content
+  figure
   img {
-  height: 70px;
+  width: 100%;
+}
+
+main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content h2 {
+  font-family: var(--titulo);
+  margin-bottom: 20px;
+}
+
+main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content p {
+  width: 890px;
+  margin-bottom: 30px;
+  font-family: var(--conteudo);
+}
+
+main .main-container .grafiteSaoRoque-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1330px;
+  margin: 30px auto 30px auto;
+}
+
+main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 {
+}
+
+main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 h2 {
+  font-family: var(--titulo);
+}
+
+main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 p {
+  font-family: var(--conteudo);
 }
 
 /* CCS Footer */
