@@ -395,10 +395,7 @@ main .main-container .atividade-prefeitura figure img {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-
 /* CSS Grafites em Sao Roque emSaoRoque.html */
-
-
 
 main .main-container .grafiteSaoRoque-container {
   display: flex;
@@ -428,8 +425,8 @@ main
   .grafiteSaoRoque-container
   .grafiteSaoRoque-content
   figure {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 main
@@ -471,6 +468,59 @@ main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 h2 {
 main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 p {
   font-family: var(--conteudo);
 }
+
+/* Aonde Estao os Grafites aondeEstaoGrafites.html */
+
+main .locaisGrafites-container .locaisGrafites-content {
+  max-width: 1330px;
+  margin: auto;
+}
+
+main .locaisGrafites-container .locaisGrafites-content h2 {
+  font-family: var(--titulo);
+  margin-bottom: 20px;
+}
+main .locaisGrafites-container .locaisGrafites-content p {
+  font-family: var(--conteudo);
+  margin-bottom: 20px;
+}
+
+main .locaisGrafites-container .locais-images {
+  display: flex;
+  justify-content: space-between;
+max-width: 1330px;
+margin: auto;
+}
+
+main .locaisGrafites-container .locaisCol-1 {
+display: flex;
+flex-direction: column;
+width: 400px;
+gap: 25px;
+}
+
+
+main .locaisGrafites-container .locaisCol-2 {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  gap: 25px;
+}
+
+main .locaisGrafites-container .locaisCol-3 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 25px;
+}
+
+
+
+
+
+
+
+
 
 /* CCS Footer */
 
