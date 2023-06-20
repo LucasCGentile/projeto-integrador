@@ -4,25 +4,27 @@
   box-sizing: border-box;
 }
 
+/* 
+Info
+10vh - top-header e header
+5vh - footer
+ */
+
 :root {
   --top-header-color: #e0e1dd;
   --nav-color: #778da9;
   --main-home-color: #edede9;
-
-  --titulo: "Roboto";
-  --conteudo: "Poppins";
-  --nav: "Sedgwick Ave Display";
 }
 
 body {
   /*     font-size: 10px; */
-  background-color: #ced4da;
+  /*   background-color: #ced4da; */
 }
 
 /* CSS Top Header */
 
 header .top-container {
-  background-color: var(--top-header-color);
+  background-color: #71C3FE;
 }
 
 header .top-header {
@@ -75,7 +77,7 @@ header .social-media .twitter-social:hover {
 /* CSS Header // Nav */
 
 header .nav-container {
-  background-color: var(--nav-color);
+  background-color:  #5835DE;
 }
 
 header .nav-bar {
@@ -103,7 +105,7 @@ header .nav-bar .nav ol li a {
   color: black;
   text-decoration: none;
 
-  font-family: var(--nav);
+  font-family: "Sedgwick Ave Display";
   font-size: 18px;
 }
 
@@ -114,7 +116,7 @@ header .nav-bar .nav ol li a:hover {
 /* CSS Container Geral */
 
 main .main-container {
-  background-color: var(--main-home-color);
+  background: rgb(62, 81, 81);
 }
 
 /* CSS Home index.html */
@@ -140,12 +142,12 @@ main .home-content .home-text {
 main .home-content .home-text h1 {
   font-size: 48px;
   margin-bottom: 16px;
-  font-family: var(--titulo);
+  font-family: "Roboto";
 }
 
 main .home-content .home-text p {
   font-size: 16px;
-  font-family: var(--conteudo);
+  font-family: "Poppins";
   width: 550px;
 }
 
@@ -172,7 +174,7 @@ main .home-info a img:hover {
 /* CSS Historia historia.html */
 
 main .main-container {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 
 main .main-container .historia-container {
@@ -183,11 +185,10 @@ main .main-container .historia-container {
   margin: auto;
 }
 
-main .main-container .historia-container .historia-content {
-}
+main .main-container .historia-container .historia-content {}
 
 main .main-container .historia-container .historia-content h2 {
-  font-family: var(--titulo);
+  font-family: "Roboto";
   margin-bottom: 20px;
 }
 
@@ -195,29 +196,24 @@ main .main-container .historia-container .historia-content p {
   width: 630px;
 
   margin-bottom: 30px;
-  font-family: var(--conteudo);
+  font-family: "Poppins";
 }
 
 main .main-container .historia-container .historia-content img {
   margin: 0 0 35px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-main .main-container .historia-container .historia-content-aside {
-}
+main .main-container .historia-container .historia-content-aside {}
 
 main .main-container .historia-container .historia-content-aside p {
-  font-family: var(--conteudo);
+  font-family: "Poppins";
   width: 590px;
 }
 
 main .main-container .historia-container .historia-content-aside img {
   margin: 35px 0 35px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 /* Padrão Estilo do Botão button */
@@ -233,7 +229,7 @@ main .main-container .button a {
   color: #3c4043;
   background-color: white;
   padding: 8px;
-  font-family: var(--conteudo);
+  font-family: "Poppins";
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
     rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
@@ -247,18 +243,14 @@ main .main-container .button a:hover {
 /* CSS Curiosidades curiosidades.html */
 
 main .curiosidades-container {
-  /*   max-width: 1330px;
-  margin: auto; */
-}
+  max-width: 1330px;
+  margin: auto;
 
-main .curiosidades-container {
 }
 
 main .curiosidades-container h2 {
-  max-width: 1330px;
-  margin: 60px auto 20px auto;
-
-  font-family: var(--titulo);
+  font-family: "Roboto";
+  margin-bottom: 20px;
 }
 
 main .curiosidades-container .curiosidades-1 {
@@ -267,7 +259,7 @@ main .curiosidades-container .curiosidades-1 {
   max-width: 1330px;
   margin: auto;
   margin-bottom: 60px;
-  font-family: var(--conteudo);
+  font-family: "Poppins";
 }
 
 main .curiosidades-container .curiosidades-1 img {
@@ -287,24 +279,19 @@ main .curiosidades-container .curiosidades-2 {
 main .curiosidades-container .curiosidades-2 .curiosidades-2-content {
   max-width: 1330px;
   margin: 0 auto 30px auto;
-  font-family: var(--conteudo);
+  font-family: "Poppins";
 }
 
 main .curiosidades-container .curiosidades-2 .container-table {
   background-color: rebeccapurple;
 }
 
-main
-  .curiosidades-container
-  .curiosidades-2
-  .container-table
-  .curiosidades-table {
+main .curiosidades-container .curiosidades-2 .container-table .curiosidades-table {
   max-width: 1330px;
   margin: auto;
 }
 
 main .curiosidades-container .curiosidades-2 .curiosidades-table table {
-  padding: 50px;
   margin: auto;
 }
 
@@ -324,13 +311,12 @@ main .curiosidades-container .curiosidades-2 .curiosidades-table table img {
   height: 70px;
 }
 
-main .curiosidades-container .curiosidades-3 {
-}
+main .curiosidades-container .curiosidades-3 {}
 
 main .curiosidades-container .curiosidades-3 .curiosidades-3-content {
   max-width: 1330px;
   margin: 0 auto 20px auto;
-  font-family: var(--conteudo);
+  font-family: "Poppins";
 }
 
 main .curiosidades-container .curiosidades-3 .steam-container {
@@ -347,11 +333,11 @@ main .main-container .prefeitura-grafite {
 
 main .main-container .prefeitura-grafite h2 {
   margin-bottom: 20px;
-  font-family: var(--titulo);
+  font-family: "Roboto";
 }
 
 main .main-container .prefeitura-grafite p {
-  font-family: var(--conteudo);
+  font-family: "Poppins";
   margin-bottom: 20px;
 }
 
@@ -373,12 +359,12 @@ main .main-container .atividade-prefeitura {
 }
 
 main .main-container .atividade-prefeitura h2 {
-  font-family: var(--titulo);
+  font-family: "Roboto";
   margin-bottom: 20px;
 }
 
 main .main-container .atividade-prefeitura p {
-  font-family: var(--conteudo);
+  font-family: "Poppins";
   margin-bottom: 30px;
 }
 
@@ -417,36 +403,26 @@ main .main-container .grafiteSaoRoque-container2 img {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content {
-}
+main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content {}
 
-main
-  .main-container
-  .grafiteSaoRoque-container
-  .grafiteSaoRoque-content
-  figure {
+main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content figure {
   display: flex;
   gap: 25px;
 }
 
-main
-  .main-container
-  .grafiteSaoRoque-container
-  .grafiteSaoRoque-content
-  figure
-  img {
+main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content figure img {
   width: 100%;
 }
 
 main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content h2 {
-  font-family: var(--titulo);
+  font-family: "Roboto";
   margin-bottom: 20px;
 }
 
 main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content p {
   width: 890px;
   margin-bottom: 30px;
-  font-family: var(--conteudo);
+  font-family: "Poppins";
 }
 
 main .main-container .grafiteSaoRoque-container2 {
@@ -458,16 +434,23 @@ main .main-container .grafiteSaoRoque-container2 {
   margin: 30px auto 30px auto;
 }
 
-main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 {
-}
+main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 {}
 
 main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 h2 {
-  font-family: var(--titulo);
+  font-family: "Roboto";
 }
 
 main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 p {
-  font-family: var(--conteudo);
+  font-family: "Poppins";
 }
+
+
+/* CSS Grafiteiros de Sâo Roque grafiteirosSaoRoque.html */
+
+
+
+
+
 
 /* Aonde Estao os Grafites aondeEstaoGrafites.html */
 
@@ -477,26 +460,27 @@ main .locaisGrafites-container .locaisGrafites-content {
 }
 
 main .locaisGrafites-container .locaisGrafites-content h2 {
-  font-family: var(--titulo);
+  font-family: "Roboto";
   margin-bottom: 20px;
 }
+
 main .locaisGrafites-container .locaisGrafites-content p {
-  font-family: var(--conteudo);
+  font-family: "Poppins";
   margin-bottom: 20px;
 }
 
 main .locaisGrafites-container .locais-images {
   display: flex;
   justify-content: space-between;
-max-width: 1330px;
-margin: auto;
+  max-width: 1330px;
+  margin: auto;
 }
 
 main .locaisGrafites-container .locaisCol-1 {
-display: flex;
-flex-direction: column;
-width: 400px;
-gap: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 25px;
 }
 
 
@@ -513,6 +497,154 @@ main .locaisGrafites-container .locaisCol-3 {
   width: 400px;
   gap: 25px;
 }
+
+/* CSS Info dos Grafites infoGrafite.html */
+
+main .main-container {}
+
+
+main .main-container .infoGrafite-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1330px;
+  margin: auto;
+  height: 78vh;
+}
+
+main .main-container .infoGrafite-container .infoGrafite-content {
+  width: 855px;
+}
+
+main .main-container .infoGrafite-container .infoGrafite-content h2 {
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+main .main-container .infoGrafite-container .infoGrafite-content p {
+  font-family: "Poppins";
+
+}
+
+
+/* CSS Quem Somos quemSomos.html */
+
+main .main-container {}
+
+main .main-container .quemSomos-container {
+  max-width: 1330px;
+  margin: auto;
+}
+
+main .main-container .quemSomos-container h2 {
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+main .main-container .quemSomos-container p {
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+main .main-container .quemSomos-container .quemSomos-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .main-container .quemSomos-container .quemSomos-content .quemSomos-perfil {
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+main .main-container .quemSomos-container .quemSomos-content .quemSomos-perfil img {
+  height: 100%;
+}
+
+main .main-container .quemSomos-container .quemSomos-content .quemSomos-perfil .quemSomos-text {
+  margin: 12px;
+}
+
+/* CCS Contato contato.html */
+
+main .main-container {}
+
+main .main-container .contato-container {
+  max-width: 1330px;
+  margin: auto;
+}
+
+
+main .main-container .contato-container h2 {
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+main .main-container .contato-container p {
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+main .main-container .contato-container .contato-content {
+  display: flex;
+  justify-content: center;
+}
+
+main .main-container .contato-container .contato-content .contato-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+  background-color: #edf2f4;
+
+}
+
+main .main-container .contato-container .contato-content .contato-box .contato-boxes {
+  display: flex;
+  align-items: flex-end;
+  padding: 8px;
+  margin: 16px;
+  background-color: #edf6f9;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+main .main-container .contato-container .contato-content .contato-box .contato-boxes img {
+  height: 40px;
+  margin: 8px;
+}
+
+
+main .main-container .contato-container .contato-content .contato-form {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+  height: 100%;
+
+}
+
+main .main-container .contato-container .contato-content .contato-form .input-1 {
+
+  padding: 8px;
+  width: 400px;
+  font-family: "Poppins";
+  margin: 20px;
+}
+
+main .main-container .contato-container .contato-content .contato-form .input-2 {
+  padding: 8px;
+  width: 845px;
+  font-family: "Poppins";
+
+  margin: 20px;
+}
+
+main .main-container .contato-container .contato-content .contato-form input:focus {
+  outline-color: var(--nav-color);
+}
+
 
 
 
