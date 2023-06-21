@@ -24,7 +24,7 @@ body {
 /* CSS Top Header */
 
 header .top-container {
-  background-color: #71C3FE;
+  background-color: #adb5bd;
 }
 
 header .top-header {
@@ -77,7 +77,7 @@ header .social-media .twitter-social:hover {
 /* CSS Header // Nav */
 
 header .nav-container {
-  background-color:  #5835DE;
+  background-color: #ced4da;
 }
 
 header .nav-bar {
@@ -116,8 +116,8 @@ header .nav-bar .nav ol li a:hover {
 /* CSS Container Geral */
 
 main .main-container {
-  background: rgb(62, 81, 81);
-}
+background-color: #dee2e6;
+ }
 
 /* CSS Home index.html */
 
@@ -185,7 +185,8 @@ main .main-container .historia-container {
   margin: auto;
 }
 
-main .main-container .historia-container .historia-content {}
+main .main-container .historia-container .historia-content {
+}
 
 main .main-container .historia-container .historia-content h2 {
   font-family: "Roboto";
@@ -204,7 +205,8 @@ main .main-container .historia-container .historia-content img {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-main .main-container .historia-container .historia-content-aside {}
+main .main-container .historia-container .historia-content-aside {
+}
 
 main .main-container .historia-container .historia-content-aside p {
   font-family: "Poppins";
@@ -245,7 +247,6 @@ main .main-container .button a:hover {
 main .curiosidades-container {
   max-width: 1330px;
   margin: auto;
-
 }
 
 main .curiosidades-container h2 {
@@ -283,10 +284,13 @@ main .curiosidades-container .curiosidades-2 .curiosidades-2-content {
 }
 
 main .curiosidades-container .curiosidades-2 .container-table {
-  background-color: rebeccapurple;
 }
 
-main .curiosidades-container .curiosidades-2 .container-table .curiosidades-table {
+main
+  .curiosidades-container
+  .curiosidades-2
+  .container-table
+  .curiosidades-table {
   max-width: 1330px;
   margin: auto;
 }
@@ -311,7 +315,8 @@ main .curiosidades-container .curiosidades-2 .curiosidades-table table img {
   height: 70px;
 }
 
-main .curiosidades-container .curiosidades-3 {}
+main .curiosidades-container .curiosidades-3 {
+}
 
 main .curiosidades-container .curiosidades-3 .curiosidades-3-content {
   max-width: 1330px;
@@ -403,14 +408,24 @@ main .main-container .grafiteSaoRoque-container2 img {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content {}
+main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content {
+}
 
-main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content figure {
+main
+  .main-container
+  .grafiteSaoRoque-container
+  .grafiteSaoRoque-content
+  figure {
   display: flex;
   gap: 25px;
 }
 
-main .main-container .grafiteSaoRoque-container .grafiteSaoRoque-content figure img {
+main
+  .main-container
+  .grafiteSaoRoque-container
+  .grafiteSaoRoque-content
+  figure
+  img {
   width: 100%;
 }
 
@@ -434,7 +449,8 @@ main .main-container .grafiteSaoRoque-container2 {
   margin: 30px auto 30px auto;
 }
 
-main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 {}
+main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 {
+}
 
 main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 h2 {
   font-family: "Roboto";
@@ -444,13 +460,7 @@ main .main-container .grafiteSaoRoque-container2 .grafiteSaoRoque-content2 p {
   font-family: "Poppins";
 }
 
-
 /* CSS Grafiteiros de Sâo Roque grafiteirosSaoRoque.html */
-
-
-
-
-
 
 /* Aonde Estao os Grafites aondeEstaoGrafites.html */
 
@@ -483,7 +493,6 @@ main .locaisGrafites-container .locaisCol-1 {
   gap: 25px;
 }
 
-
 main .locaisGrafites-container .locaisCol-2 {
   display: flex;
   flex-direction: column;
@@ -498,10 +507,38 @@ main .locaisGrafites-container .locaisCol-3 {
   gap: 25px;
 }
 
+/* CSS Galeria galeria.html */
+
+main .main-container .galeria-container {
+  max-width: 1330px;
+  margin: auto;
+}
+
+main .main-container .galeria-container .galeria-content {
+
+}
+
+main .main-container .galeria-container .galeria-images {
+  display: flex;
+}
+
+main .main-container .galeria-container .galeria-images img{
+padding: 15px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+
+
+
+
+
+
+
+
 /* CSS Info dos Grafites infoGrafite.html */
 
-main .main-container {}
-
+main .main-container {
+}
 
 main .main-container .infoGrafite-container {
   display: flex;
@@ -522,13 +559,12 @@ main .main-container .infoGrafite-container .infoGrafite-content h2 {
 
 main .main-container .infoGrafite-container .infoGrafite-content p {
   font-family: "Poppins";
-
 }
-
 
 /* CSS Quem Somos quemSomos.html */
 
-main .main-container {}
+main .main-container {
+}
 
 main .main-container .quemSomos-container {
   max-width: 1330px;
@@ -557,23 +593,33 @@ main .main-container .quemSomos-container .quemSomos-content .quemSomos-perfil {
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
-main .main-container .quemSomos-container .quemSomos-content .quemSomos-perfil img {
+main
+  .main-container
+  .quemSomos-container
+  .quemSomos-content
+  .quemSomos-perfil
+  img {
   height: 100%;
 }
 
-main .main-container .quemSomos-container .quemSomos-content .quemSomos-perfil .quemSomos-text {
+main
+  .main-container
+  .quemSomos-container
+  .quemSomos-content
+  .quemSomos-perfil
+  .quemSomos-text {
   margin: 12px;
 }
 
 /* CCS Contato contato.html */
 
-main .main-container {}
+main .main-container {
+}
 
 main .main-container .contato-container {
   max-width: 1330px;
   margin: auto;
 }
-
 
 main .main-container .contato-container h2 {
   font-family: "Roboto";
@@ -596,10 +642,14 @@ main .main-container .contato-container .contato-content .contato-box {
   justify-content: center;
   padding: 32px;
   background-color: #edf2f4;
-
 }
 
-main .main-container .contato-container .contato-content .contato-box .contato-boxes {
+main
+  .main-container
+  .contato-container
+  .contato-content
+  .contato-box
+  .contato-boxes {
   display: flex;
   align-items: flex-end;
   padding: 8px;
@@ -609,11 +659,16 @@ main .main-container .contato-container .contato-content .contato-box .contato-b
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-main .main-container .contato-container .contato-content .contato-box .contato-boxes img {
+main
+  .main-container
+  .contato-container
+  .contato-content
+  .contato-box
+  .contato-boxes
+  img {
   height: 40px;
   margin: 8px;
 }
-
 
 main .main-container .contato-container .contato-content .contato-form {
   display: flex;
@@ -622,18 +677,26 @@ main .main-container .contato-container .contato-content .contato-form {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-color: white;
   height: 100%;
-
 }
 
-main .main-container .contato-container .contato-content .contato-form .input-1 {
-
+main
+  .main-container
+  .contato-container
+  .contato-content
+  .contato-form
+  .input-1 {
   padding: 8px;
   width: 400px;
   font-family: "Poppins";
   margin: 20px;
 }
 
-main .main-container .contato-container .contato-content .contato-form .input-2 {
+main
+  .main-container
+  .contato-container
+  .contato-content
+  .contato-form
+  .input-2 {
   padding: 8px;
   width: 845px;
   font-family: "Poppins";
@@ -641,18 +704,14 @@ main .main-container .contato-container .contato-content .contato-form .input-2 
   margin: 20px;
 }
 
-main .main-container .contato-container .contato-content .contato-form input:focus {
+main
+  .main-container
+  .contato-container
+  .contato-content
+  .contato-form
+  input:focus {
   outline-color: var(--nav-color);
 }
-
-
-
-
-
-
-
-
-
 
 /* CCS Footer */
 
